@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SplitTheBill</string>
+    <string name="name">Nome</string>
+    <string name="totalPaid">Total pago</string>
+    <string name="itemsBought">Itens comprados</string>
+    <string name="save">Salvar</string>
+    <string name="remove_person">Remover participante</string>
+    <string name="edit_person">Editar participante</string>
+    <string name="add_person">Adicionar participante</string>
+</resources>
