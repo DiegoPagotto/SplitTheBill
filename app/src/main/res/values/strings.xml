@@ -7,4 +7,12 @@
     <string name="remove_person">Remover participante</string>
     <string name="edit_person">Editar participante</string>
     <string name="add_person">Adicionar participante</string>
+    <string name="person_list">Split the Bill</string>
+    <string name="person_edited">Pessoa atualizada com sucesso!</string>
+    <string name="person_removed">Participante removido com sucesso!</string>
+    <string name="person_info">Informações do participante</string>
+    <string name="split_the_bill">Dividir a conta</string>
+    <string name="no_persons">Nenhuma pessoa adicionada</string>
+    <string name="items_bought">Itens comprados</string>
+    <string name="invalid_total_paid">Valor pago não pode ser vazio (mas pode ser 0 =D)</string>
 </resources>

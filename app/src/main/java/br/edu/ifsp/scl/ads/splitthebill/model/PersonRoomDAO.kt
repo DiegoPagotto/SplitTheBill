@@ -1,8 +1,12 @@
 package br.edu.ifsp.scl.ads.splitthebill.model
 
-abstract class PersonRoomDAO {
+import androidx.room.Database
+import androidx.room.RoomDatabase
+
+@Database(entities = [Person::class], version = 1)
+abstract class PersonRoomDAO : RoomDatabase(){
     companion object Constants {
-        const val PERSON_DATABASE_FILE = "persons_room"
+        const val PERSON_DATABASE_FILE = "split_the_bill_room"
     }
 
     abstract fun getPersonDao() : PersonDAO

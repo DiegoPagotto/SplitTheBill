@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:id="@+id/addContactMi"
+    <item android:id="@+id/splitTheBillMi"
+        android:icon="@drawable/ic_split"
+        android:title="@string/split_the_bill"
+        app:showAsAction="ifRoom" />
+    <item android:id="@+id/addPersonMi"
         android:icon="@drawable/ic_add"
         android:title="@string/add_person"
-        android:showAsAction="ifRoom" />
+        app:showAsAction="ifRoom" />
+
 </menu>
